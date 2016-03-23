@@ -1,6 +1,6 @@
 ## Z.BRA Framework de Javascript
 
-Framework dedicado a ser um facilitador no desernvolvimentos pros projetos da Z.BRA.
+Framework dedicado a ser um facilitador no desernvolvimentos pros projetos da [Z.BRA Estúdio](http://www.zbraestudio.com.br).
 
 ### Instalação
 Para instalar, chame antes de fechar o <head> do seu HTML o seguinte código:
