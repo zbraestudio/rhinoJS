@@ -1,10 +1,9 @@
+zbra.device = new Object();
+
 /**
  * Verifica se o aparelho é acessado de um Celular
  * @returns {boolean}
  */
-
-zbra.device = new Object();
-
 zbra.device.isMobile = function(){
 
     if( navigator.userAgent.match(/Android/i)
