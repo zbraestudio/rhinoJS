@@ -7,8 +7,7 @@ Para instalar, chame antes de fechar o `<head>` do seu HTML o seguinte código:
 
 ```
   <!-- ZBRA Framework Javascrit -->
-  <script src="../zbra.js"></script>
-  <script src="../zbra.device.js"></script>
+  <script src="../zbra.min.js"></script>
 ```
 
 #### Dependências
