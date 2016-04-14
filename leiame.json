@@ -1,5 +1,11 @@
 {
  "path": "/",
  "branch_name": "master",
- "page_index": "readme"
+ "page_index": "readme",
+ "modules": [
+    "auto_title_index",
+    "external_link_blank"
+  ]
 }
+
+
