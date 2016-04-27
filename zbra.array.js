@@ -1,7 +1,7 @@
 zbra.array = new Object();
 
 /**
- * Verifica item-a-item de array se x valor já está contido neel.
+ * Verifica item-a-item de array se x valor já está contido nele.
  * @param array {array}
  * @param item
  * @returns {boolean}
@@ -13,6 +13,7 @@ zbra.array.search = function(array, item){
 
     if(e == item)
       r = true;
+      
   });
 
   return r;
