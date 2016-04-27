@@ -1,11 +1,11 @@
 {
- "path": "/",
- "branch_name": "master",
- "page_index": "readme",
- "modules": [
+  "path": "/doc",
+  "branch_name": "0.0.1",
+  "sidebar": "/sidebar.md",
+  
+  "modules": [
     "auto_title_index",
     "external_link_blank"
   ]
+  
 }
-
-
