@@ -2,9 +2,7 @@
  - [Home](/index.md)
  - [Download](/download.md)
  - [Instalação](/instalacao.md)
-
-#### Propriedades
- - [zbra.version](/propriedades/zbra.version.md)
+ - [Propriedades](/propriedades.md)
 
 
 #### Funções
