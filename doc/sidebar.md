@@ -12,5 +12,6 @@
 
 #### Releases
 - [Instruções](/releases/instrucoes.md)
+- [Nomenclatura](/releases/nomenclatura.md)
  
 
