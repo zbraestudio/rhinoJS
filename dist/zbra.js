@@ -1,5 +1,5 @@
 var zbra = new Object();
-zbra.version = "1.0.0";
+zbra.version = "1.0.1";
 
 /**
  * Cria log no console
@@ -20,14 +20,14 @@ zbra.error = function(msg){
 }
 
 /**
- * Faz verifica√ß√µes necess√°rias para um bom funcionamento do framework
+ * Faz verificaÁıes necess·rias para um bom funcionamento do framework
  * @returns {boolean}
  */
 zbra.checking = function(){
 
-    //verifica se Jquery est√° carregado
+    //verifica se Jquery est· carregado
     if (typeof jQuery === 'undefined') {
-        zbra.error('o jQuery n√£o foi carregado e √© necess√°rio.');
+        zbra.error('o jQuery n„o foi carregado e È necess·rio.');
         return false;
     }
 
@@ -41,7 +41,7 @@ zbra.init = function(){
 
     zbra.log('Iniciando...');
 
-    //verifica√ß√µes...
+    //verificaÁıes...
     if(!zbra.checking()){
         return;
     }
@@ -53,29 +53,10 @@ zbra.init = function(){
 //startando zbra!
 zbra.init();
 
-zbra.array = new Object();
-
-/**
- * Verifica item-a-item de array se x valor j√° est√° contido neel.
- * @param array [array}
- * @param item
- * @returns {boolean}
- */
-zbra.array.search = function(array, item){
-
-    array.forEach(function(e){
-
-        if(e == item)
-            return true;
-    });
-
-    return false;
-
-}
 zbra.device = new Object();
 
 /**
- * Verifica se o aparelho √© acessado de um Celular
+ * Verifica se o aparelho È acessado de um Celular
  * @returns {boolean}
  */
 zbra.device.isMobile = function(){
@@ -92,8 +73,9 @@ zbra.device.isMobile = function(){
     else
         return false;
 
-}/**
- * Verifica se vari√°vel foi instanciada antes
+}
+/**
+ * Verifica se vari·vel foi instanciada antes
  * @param variavel
  * @returns {boolean}
  */
@@ -103,5 +85,26 @@ zbra.isset = function(variavel){
         return false;
     else
         return true;
+
+}
+zbra.array = new Object();
+
+/**
+ * Verifica item-a-item de array se x valor j· est· contido nele.
+ * @param array {array}
+ * @param item
+ * @returns {boolean}
+ */
+zbra.array.search = function(array, item){
+  var r = false;
+
+  array.forEach(function(e){
+
+    if(e == item)
+      r = true;
+      
+  });
+
+  return r;
 
 }
