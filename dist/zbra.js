@@ -20,14 +20,14 @@ zbra.error = function(msg){
 }
 
 /**
- * Faz verificaÁıes necess·rias para um bom funcionamento do framework
+ * Faz verifica√ß√µes necess√°rias para um bom funcionamento do framework
  * @returns {boolean}
  */
 zbra.checking = function(){
 
-    //verifica se Jquery est· carregado
+    //verifica se Jquery est√° carregado
     if (typeof jQuery === 'undefined') {
-        zbra.error('o jQuery n„o foi carregado e È necess·rio.');
+        zbra.error('o jQuery n√£o foi carregado e √© necess√°rio.');
         return false;
     }
 
@@ -41,7 +41,7 @@ zbra.init = function(){
 
     zbra.log('Iniciando...');
 
-    //verificaÁıes...
+    //verifica√ß√µes...
     if(!zbra.checking()){
         return;
     }
@@ -56,7 +56,7 @@ zbra.init();
 zbra.array = new Object();
 
 /**
- * Verifica item-a-item de array se x valor j· est· contido neel.
+ * Verifica item-a-item de array se x valor j√° est√° contido neel.
  * @param array [array}
  * @param item
  * @returns {boolean}
@@ -75,7 +75,7 @@ zbra.array.search = function(array, item){
 zbra.device = new Object();
 
 /**
- * Verifica se o aparelho È acessado de um Celular
+ * Verifica se o aparelho √© acessado de um Celular
  * @returns {boolean}
  */
 zbra.device.isMobile = function(){
@@ -93,7 +93,7 @@ zbra.device.isMobile = function(){
         return false;
 
 }/**
- * Verifica se vari·vel foi instanciada antes
+ * Verifica se vari√°vel foi instanciada antes
  * @param variavel
  * @returns {boolean}
  */
