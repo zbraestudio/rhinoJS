@@ -1,4 +1,4 @@
-# Função zbra.ismobile
+# Função zbra.isMobile
 
 Verifica se o dispositivo que está sendo usado é um celular.
 
