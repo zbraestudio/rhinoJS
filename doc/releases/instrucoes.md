@@ -15,10 +15,10 @@ _Nota: Respeite SEMPRE a  [Nomenclatura](/releases/nomenclatura.md) adotada como
 
 3 - Adicione todos os arquivos fontes na seguinte ordem:
 
-* zbra.init.js
-* zbra.array.js
-* zbra.device.js
-* zbra.functions.js
+1.  zbra.init.js
+2.  zbra.array.js
+3.  zbra.device.js
+4.  zbra.functions.js
 
 4 - Abra um editor de texto e salve a versão (não comprimida) com todos os fontes juntos. Salve esse arquivo no diretório ```dist/zbra.js```
 
