@@ -7,6 +7,8 @@ Antes de liberar qualquer release do Z.BRA Framework Javascript leia abaixo as i
 1 - Antes de tudo, altera a versão (para a versão que será liberada) no arquivo **zbra.init.php**:
 
     zbra.version = "X.X.X";
+    
+_Nota: Respeite SEMPRE a  [Nomenclatura](/releases/nomenclatura.md) adotada como padrão para esse projeto._
   
   
 2 - Abra o compressor de código fonte: http://refresh-sf.com/.
