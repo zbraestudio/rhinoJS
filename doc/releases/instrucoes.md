@@ -8,7 +8,7 @@ Antes de liberar qualquer release do Z.BRA Framework Javascript leia abaixo as i
 
     zbra.version = "X.X.X";
     
-_Nota: Respeite SEMPRE a  [Nomenclatura](/releases/nomenclatura.md) adotada como padrão para esse projeto._
+_Nota: Respeite SEMPRE a  [nomenclatura](/releases/nomenclatura.md) adotada como padrão para esse projeto._
   
   
 2 - Abra o compressor de código fonte: http://refresh-sf.com/.
