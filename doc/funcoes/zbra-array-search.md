@@ -2,6 +2,8 @@
 
 Verifica item-a-item de array se x valor já está contido nele.
 
+  boolean zbra.array.search(array, item)
+
 ## Parâmetros
 * **array** - Array que será vistoriado.
 * **item** - Valor que será procurado no array.
