@@ -11,6 +11,6 @@
 - [zbra.device.isMobile](/funcoes/zbra-ismobile.md)
 
 #### Releases
-- [Instruções] (/releases/instrucoes.md)
+- [Instruções](/releases/instrucoes.md)
  
 
