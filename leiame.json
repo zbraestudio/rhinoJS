@@ -1,6 +1,6 @@
 {
   "path": "/doc",
-  "branch_name": "0.0.1",
+  "branch_name": "master",
   "sidebar": "/sidebar.md",
   "logo": "https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/logo.png",
   "modules": [
