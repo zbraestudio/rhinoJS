@@ -75,6 +75,11 @@ zbra.validateCNPJ = function(cnpj) {
 
 }
 
+/**
+ * Verifica se número de CPF é válido
+ * @param cpf
+ * @returns {boolean}
+ */
 zbra.validateCPF = function (cpf) {
     var soma = 0;
     var resto;
@@ -109,4 +114,17 @@ zbra.validateCPF = function (cpf) {
         return false;
     
     return true;
+}
+
+/**
+ * Verifica se E-mail é de fato um e-mail válido
+ * @param email
+ * @returns {boolean}
+ */
+zbra.validateMail = function(email){
+    var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
+    var check=/@[\w\-]+\./;
+    var checkend=/\.[a-zA-Z]{2,3}$/;
+    if(((email.search(exclude) != -1)||(email.search(check)) == -1)||(email.search(checkend) == -1)){return false;}
+    else {return true;}
 }
