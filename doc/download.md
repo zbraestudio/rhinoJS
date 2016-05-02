@@ -1,7 +1,18 @@
 # Download
 Confira abaixo todas as versões liberadas do Z.BRA Framework Javascript.
 
-### 1.0.0 - Última versão estável!
+### 1.1.0 - Última versão estável!
+
+* [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.1.0/dist/zbra.min.js) (versão mais enxuta)
+* [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.1.0/dist/zbra.js)
+
+
+>* Adicionado função ``boolean zbra.validateCPF(cpf)`` que verifica se um CPF é válido.
+>* Adicionado função ``boolean zbra.validateCNPJ(cnpj)`` que verifica se um CNPJ é válido.
+>* Adicionado função ``boolean zbra.validateMail(email)`` que um E-mail é válido.
+
+
+#### 1.0.0
 
 * [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.0.0/dist/zbra.min.js) (versão mais enxuta)
 * [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.0.0/dist/zbra.js)
