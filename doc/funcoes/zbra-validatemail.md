@@ -2,7 +2,7 @@
 
 Verifica se o número de CPF informado é válido.
 
-    boolean zbra.device.validateMail()
+    boolean zbra.validateMail()
 
 ## Retorno
 Retorna um _boolean_, onde _true_ é um E-mail válido.
