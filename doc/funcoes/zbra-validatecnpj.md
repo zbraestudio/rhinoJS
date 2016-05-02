@@ -2,7 +2,7 @@
 
 Verifica se o número de CNPJ informado é válido.
 
-    boolean zbra.device.validateCNPJ()
+    boolean zbra.validateCNPJ()
 
 ## Retorno
 Retorna um _boolean_, onde _true_ é um CNPJ válido.
