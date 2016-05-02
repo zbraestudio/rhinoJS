@@ -16,6 +16,7 @@ _Nota: Respeite SEMPRE a  [nomenclatura](/releases/nomenclatura.md) adotada como
 3 - Adicione todos os arquivos fontes na seguinte ordem:
 
 1.  zbra.init.js
+2.  zbra.number.js
 2.  zbra.array.js
 3.  zbra.device.js
 4.  zbra.functions.js
