@@ -26,8 +26,8 @@ _Nota: Respeite SEMPRE a  [nomenclatura](/releases/nomenclatura.md) adotada como
 
 _Nota: Não esqueça de fazer ```commit``` de tudo isso antes de prosseguir._
 
-## B. Branches
-Agora é hora de liberarmos a versão no Github. Para isso, crie um branche somente com a versão que está sendo liberada. Por exemplo: ```1.2.3```.
+## B. Release / Tag
+Agora é hora de liberarmos a versão no Github. Para isso, crie um _release_ somente com a versão que está sendo liberada. Por exemplo: ```v1.2.3```.
 
 ## C. Documentação
 Agora só falta você fazer a documentação da liberação.
