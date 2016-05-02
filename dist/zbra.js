@@ -1,5 +1,5 @@
 var zbra = new Object();
-zbra.version = "1.0.1";
+zbra.version = "1.0.0";
 
 /**
  * Cria log no console
@@ -53,6 +53,27 @@ zbra.init = function(){
 //startando zbra!
 zbra.init();
 
+zbra.array = new Object();
+
+/**
+ * Verifica item-a-item de array se x valor já está contido nele.
+ * @param array {array}
+ * @param item
+ * @returns {boolean}
+ */
+zbra.array.search = function(array, item){
+  var r = false;
+
+  array.forEach(function(e){
+
+    if(e == item)
+      r = true;
+      
+  });
+
+  return r;
+
+}
 zbra.device = new Object();
 
 /**
@@ -73,8 +94,7 @@ zbra.device.isMobile = function(){
     else
         return false;
 
-}
-/**
+}/**
  * Verifica se variável foi instanciada antes
  * @param variavel
  * @returns {boolean}
@@ -85,26 +105,5 @@ zbra.isset = function(variavel){
         return false;
     else
         return true;
-
-}
-zbra.array = new Object();
-
-/**
- * Verifica item-a-item de array se x valor já está contido nele.
- * @param array {array}
- * @param item
- * @returns {boolean}
- */
-zbra.array.search = function(array, item){
-  var r = false;
-
-  array.forEach(function(e){
-
-    if(e == item)
-      r = true;
-      
-  });
-
-  return r;
 
 }
