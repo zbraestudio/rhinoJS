@@ -8,7 +8,7 @@ Envia pacote de dados (via ```GET``` ou ```POST```).
 * ```url``` -  URL de destino.
 * ```params``` -  Array que contém todos os paramêtros que serão enviados.
 * ```method``` -  Qual metodo será enviada as informações (```POST``` ou ```GET``` - Padrão é: ```POST```)
-* ```target``` -  Destino que será enviada as informações (Padrão é ```_self```
+* ```target``` -  Destino que será enviada as informações (Padrão é ```_self```)
 
 ## Exemplo
 
