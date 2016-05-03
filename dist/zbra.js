@@ -1,5 +1,5 @@
 var zbra = new Object();
-zbra.version = "1.1.0";
+zbra.version = "1.2.0";
 
 /**
  * Cria log no console
@@ -229,3 +229,36 @@ zbra.validateMail = function(email){
     if(((email.search(exclude) != -1)||(email.search(check)) == -1)||(email.search(checkend) == -1)){return false;}
     else {return true;}
 }
+
+/**
+ * Envia pacote de dados (via GET ou POST)
+ * @param url
+ * @param params
+ * @param method
+ * @param target
+ */
+zbra.send = function(url, params, method, target){
+
+    //defaults
+    params =    typeof params !== 'undefined' ? params : new Array();
+    method =    typeof method !== 'undefined' ? method : 'POST';
+    target =    typeof target !== 'undefined' ? target : '_self';
+
+    //cria formulario
+    var form = $('<form action="#"></form>');
+    form.attr('action', url);
+    form.attr('method', method);
+    form.attr('target', target);
+
+    //parâmetros
+    $.each(params, function( key, value ) {
+        form.append('<input name="' + key + '" type="hidden" value="' + value + '">');
+    });
+
+    //anexa do documento, envia e já exclui na sequência
+    $('body').append(form);
+    form.submit();
+    form.remove();
+
+}
+

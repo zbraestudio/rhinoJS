@@ -1,5 +1,5 @@
 var zbra = new Object();
-zbra.version = "1.1.0";
+zbra.version = "1.2.0";
 
 /**
  * Cria log no console
