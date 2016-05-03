@@ -1,6 +1,6 @@
 #### Principal
  - [Home](/index.md)
- - [Download](/download.md)
+ - [Releases](/releases.md)
  - [Instalação](/instalacao.md)
  - [Propriedades](/propriedades.md)
 
@@ -14,7 +14,7 @@
 - [zbra.validateCNPJ](/funcoes/zbra-validatecnpj.md)
 - [zbra.validateMail](/funcoes/zbra-validatemail.md)
 
-#### Releases
+#### Manual de Liberação
 - [Instruções](/releases/instrucoes.md)
 - [Nomenclatura](/releases/nomenclatura.md)
  
