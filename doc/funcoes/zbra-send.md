@@ -18,3 +18,5 @@ Envia pacote de dados (via ```GET``` ou ```POST```).
       zbra.send('http://apps.zbraestudio.com.br/twites', parametros, 'GET', '_blank');
 
     });
+    
+Veja uma [demonstração online](https://jsfiddle.net/73mdssnb/).
