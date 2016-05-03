@@ -1,7 +1,16 @@
 # Download
 Confira abaixo todas as versões liberadas do Z.BRA Framework Javascript.
 
-### 1.1.0 - Última versão estável!
+### 1.2.0 - Última versão estável!
+
+* [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.2.0/dist/zbra.min.js) (versão mais enxuta)
+* [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.2.0/dist/zbra.js)
+
+> Mais coisa bacana chegando!
+>* Adicionado função ``void zbra.send(url, params, method, target)`` Envia pacote de dados (via ```GET``` ou ```POST```).
+
+
+#### 1.1.0
 
 * [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.1.0/dist/zbra.min.js) (versão mais enxuta)
 * [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.1.0/dist/zbra.js)
