@@ -1,7 +1,15 @@
 # Download
 Confira abaixo todas as versões liberadas do Z.BRA Framework Javascript.
 
-## 1.3.0 - Última versão estável!
+## 1.3.1 - Última versão estável!
+
+* [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.3.1/dist/zbra.min.js) (versão mais enxuta)
+* [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.3.1/dist/zbra.js)
+
+> Adicionado no [Bower](http://www.bower.io) o [jQuery](http://www.jquery.com) como dependência. Havia sido esquecido.
+
+
+### 1.3.0
 
 * [zebra.min.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.3.0/dist/zbra.min.js) (versão mais enxuta)
 * [zebra.js](https://cdn.rawgit.com/zbraestudio/zbra.framework.javascript/v1.3.0/dist/zbra.js)
