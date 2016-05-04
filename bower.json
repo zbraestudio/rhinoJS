@@ -1,0 +1,15 @@
+{
+  "name": "zbra.framework.javascript",
+  "homepage": "https://github.com/zbraestudio/zbra.framework.javascript",
+  "authors": [
+    "Tihh Gonçalves <tihh.gon@gmail.com>"
+  ],
+  "description": "Framework de Javascript da Z.BRA Estúdio",
+  "main": "dist/zbra.min.js",
+  "keywords": [
+    "framework",
+    "javascript",
+    "opensource"
+  ],
+  "license": "MIT"
+}
