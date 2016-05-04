@@ -11,5 +11,8 @@
     "javascript",
     "opensource"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
 }
