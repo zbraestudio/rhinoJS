@@ -4,7 +4,6 @@
   "logo": "https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/logo.png",
   "favicon" : "https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/faviicon.png",
   "modules": [
-    "auto_title_index",
     "external_link_blank"
   ]
   
