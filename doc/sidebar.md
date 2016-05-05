@@ -15,7 +15,7 @@
 - [zbra.validateMail](/funcoes/zbra-validatemail.md)
 
 #### Manual de Liberação
-- [Instruções](/releases/instrucoes.md)
-- [Nomenclatura](/releases/nomenclatura.md)
+- [Instruções](/instrucoes/releases.md)
+- [Nomenclatura](/instrucoes/nomenclatura.md)
  
 
