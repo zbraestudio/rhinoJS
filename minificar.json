@@ -5,7 +5,7 @@
       "zbra.number.js",
       "zbra.array.js",
       "zbra.device.js",
-      "zbra.functions.js",
+      "zbra.functions.js"
       ]
   }
 }
