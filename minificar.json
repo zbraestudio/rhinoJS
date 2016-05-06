@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "zbra.min.js": [
+      "zbra.init.js",
+      "zbra.number.js",
+      "zbra.array.js",
+      "zbra.device.js",
+      "zbra.functions.js",
+      ]
+  }
+}
