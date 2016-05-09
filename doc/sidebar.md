@@ -16,7 +16,7 @@
 
 #### Propriedades
 
-- [Objeto ZBRA](/propriedades/object-zbra.js)
+- [Objeto ZBRA](/propriedades/zbra.md)
 
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
