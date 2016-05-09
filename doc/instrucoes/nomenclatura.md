@@ -7,8 +7,8 @@
 ## Versão: A.B.C.D
 Sendo:
 
-* A - Número da versão geral (ou versão do *branch*).
-* B - Número do  *release*.
+* A - Número da versão geral (ou versão do **branch**).
+* B - Número do  **release**.
 * C - Número das **melhorias** desde o último *release*.
 * D - Número das **correções** desde o último *release*.
 
