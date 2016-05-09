@@ -1,23 +1,22 @@
 #### Principal
  - [Home](/index.md)
- - [Releases](/releases.md)
- - [Instalação](/instalacao.md)
- - [Propriedades](/propriedades.md)
-
 
 #### Funções
-- [Array.search](/funcoes/zbra-isset.md)
-- [Form.send](/funcoes/zbra-isset.md)
-- [navigator.isMobile](/funcoes/zbra-isset.md)
-- [validate.isBoolean](/funcoes/zbra-isset.md)
-- [validate.isCNPJ](/funcoes/zbra-isset.md)
-- [validate.isCPF](/funcoes/zbra-isset.md)
-- [validate.isMail](/funcoes/zbra-isset.md)
-- [validate.isNumber](/funcoes/zbra-isset.md)
-- [validate.isObject](/funcoes/zbra-isset.md)
-- [validate.isString](/funcoes/zbra-isset.md)
-- [validate.isset](/funcoes/zbra-isset.md)
+- [Array.search](/funcoes/Array-search.md)
+- [Form.send](/funcoes/Form-senha.md)
+- [navigator.isMobile](/funcoes/navigator-isMobile.md)
+- [validate.isBoolean](/funcoes/validate-isBoolean.md)
+- [validate.isCNPJ](/funcoes/validate-isCNPJ.md)
+- [validate.isCPF](/funcoes/validate-isCPF.md)
+- [validate.isMail](/funcoes/validate-isMail.md)
+- [validate.isNumber](/funcoes/validate-isNumber.md)
+- [validate.isObject](/funcoes/validate-isObject.md)
+- [validate.isString](/funcoes/validate-isString.md)
+- [validate.isset](/funcoes/validate-isset.md)
 
+#### Propriedades
+
+- [Objeto ZBRA](/propriedades/zbra.js)
 
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
