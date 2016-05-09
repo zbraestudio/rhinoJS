@@ -1,9 +1,12 @@
+//if(!validate.isset(validate))
+    var validate = new Object();
+
 /**
  * Verifica se variável foi instanciada antes
  * @param variavel
  * @returns {boolean}
  */
-zbra.isset = function(variavel){
+validate.isset = function(variavel){
 
     if( (variavel === undefined) || (variavel === null) )
         return false;
@@ -18,7 +21,7 @@ zbra.isset = function(variavel){
  * @param cnpj
  * @returns {boolean}
  */
-zbra.validateCNPJ = function(cnpj) {
+validate.isCNPJ = function(cnpj) {
 
     //deixa somente números
     cnpj = zbra.number.StringToNumbers(cnpj);
@@ -80,7 +83,7 @@ zbra.validateCNPJ = function(cnpj) {
  * @param cpf
  * @returns {boolean}
  */
-zbra.validateCPF = function (cpf) {
+validate.isCPF = function (cpf) {
     var soma = 0;
     var resto;
 
@@ -121,7 +124,7 @@ zbra.validateCPF = function (cpf) {
  * @param email
  * @returns {boolean}
  */
-zbra.validateMail = function(email){
+validate.isMail = function(email){
     var exclude=/[^@\-\.\w]|^[_@\.\-]|[\._\-]{2}|[@\.]{2}|(@)[^@]*\1/;
     var check=/@[\w\-]+\./;
     var checkend=/\.[a-zA-Z]{2,3}$/;
@@ -130,34 +133,46 @@ zbra.validateMail = function(email){
 }
 
 /**
- * Envia pacote de dados (via GET ou POST)
- * @param url
- * @param params
- * @param method
- * @param target
+ * Verifica de variável foi instanciada como um objeto
+ * @param val
+ * @returns {boolean}
  */
-zbra.send = function(url, params, method, target){
-
-    //defaults
-    params =    typeof params !== 'undefined' ? params : new Array();
-    method =    typeof method !== 'undefined' ? method : 'POST';
-    target =    typeof target !== 'undefined' ? target : '_self';
-
-    //cria formulario
-    var form = $('<form action="#"></form>');
-    form.attr('action', url);
-    form.attr('method', method);
-    form.attr('target', target);
-
-    //parâmetros
-    $.each(params, function( key, value ) {
-        form.append('<input name="' + key + '" type="hidden" value="' + value + '">');
-    });
-
-    //anexa do documento, envia e já exclui na sequência
-    $('body').append(form);
-    form.submit();
-    form.remove();
-
+validate.isObject = function(val) {
+    return (typeof val == 'object');
 }
 
+/**
+ * Verifica de variável foi instanciada como um array
+ * @param val
+ * @returns {boolean}
+ */
+validate.isArray = function(val) {
+    return (typeof val == 'object');
+}
+
+/**
+ * Verifica de variável foi instanciada como uma string
+ * @param val
+ * @returns {boolean}
+ */
+validate.isString = function(val) {
+    return (typeof val == 'string');
+}
+
+/**
+ * Verifica de variável foi instanciada como é um número
+ * @param val
+ * @returns {boolean}
+ */
+validate.isNumber = function(val) {
+    return (typeof val == 'number');
+}
+
+/**
+ * Verifica de variável foi instanciada como um boolean
+ * @param val
+ * @returns {boolean}
+ */
+validate.isBoolean = function(val) {
+    return (typeof val == 'boolean');
+}

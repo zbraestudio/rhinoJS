@@ -31,12 +31,6 @@ zbra.checking = function(){
         return false;
     }
 
-    //verifica se RequireJS está carregado
-    if (typeof requirejs === 'undefined') {
-        zbra.error('o RequireJS não foi carregado e é necessário.');
-        return false;
-    }
-
     return true;
 }
 
@@ -55,17 +49,6 @@ zbra.init = function(){
         return;
     }
     zbra.log('Terceiros verificados.');
-
-    zbra.log('Carregando toda a biblioteca...');
-
-    var requires = [zbra_path + 'zbra.number',
-                    zbra_path + 'zbra.array',
-                    zbra_path + 'zbra.device',
-                    zbra_path + 'zbra.functions'];
-
-    requirejs(requires, function() {
-        zbra.log('Toda biblioteca carregada!');
-    });
 
 
 }

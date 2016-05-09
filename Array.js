@@ -1,12 +1,10 @@
-zbra.array = new Object();
-
 /**
  * Verifica item-a-item de array se x valor já está contido nele.
  * @param array {array}
  * @param item
  * @returns {boolean}
  */
-zbra.array.search = function(array, item){
+Array.search = function(array, item){
   var r = false;
 
   array.forEach(function(e){
