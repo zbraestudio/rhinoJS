@@ -1,8 +1,8 @@
-# Função zbra.array.search
+# Função Array.search
 
 Verifica item-a-item de array se x valor já está contido nele.
 
-    boolean zbra.array.search(array, item)
+    boolean Array.search(array, item)
 
 ## Parâmetros
 * ```array``` - Array que será vistoriado.
@@ -16,7 +16,7 @@ Retorna um _boolean_, onde _true_ significa que valor já estava contido no arra
     var A = new Array('Tiago', 'Aline', 'Yuki', 'Alice');
     var B = 'Alice';
     
-    if(zbra.array.search(A, B))
+    if(Array.search(A, B))
       alert('Encontrou!');
     else
       alert('Não encontrou!');
