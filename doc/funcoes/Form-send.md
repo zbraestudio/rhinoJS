@@ -1,8 +1,8 @@
-# Função zbra.send
+# Função Form.send
 
 Envia pacote de dados (via ```GET``` ou ```POST```).
 
-    void zbra.send(url, params, method, target)
+    void Form.send(url, params, method, target)
 
 ## Parâmetro
 * ```url``` -  URL de destino.
@@ -15,7 +15,7 @@ Envia pacote de dados (via ```GET``` ou ```POST```).
     $('#teste').click(function(){
 
       var parametros = {twet: 'Olá mundo cruéu!'};
-      zbra.send('http://apps.zbraestudio.com.br/twites', parametros, 'GET', '_blank');
+      Form.send('http://apps.zbraestudio.com.br/twites', parametros, 'GET', '_blank');
 
     });
     
