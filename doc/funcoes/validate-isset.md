@@ -1,8 +1,8 @@
-# Função zbra.isset.md
+# Função validate.isset.md
 
 Verifica se variável em questão foi declarada ou se não existe.
 
-    zbra.isset(variavel)
+    boolean validate.isset(variavel)
 
 ## Parâmetro
 * ```variavel``` -  é a variável que será verificada se foi declarada.
@@ -12,7 +12,7 @@ Retorna um _boolean_, onde _true_ significa que variável já foi declarado e _f
 
 ## Exemplo
 
-    if(zbra.isset(var1)){
+    if(validate.isset(var1)){
         alert('var1 já foi declarada.');
     } else {
         alert('var1 não foi declarada ainda.');
