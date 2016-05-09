@@ -1,4 +1,4 @@
-# Função validate.iSString
+# Função validate.isString
 
 Verifica se variável em questão foi declarada como uma *string* ou não.
 
@@ -8,7 +8,7 @@ Verifica se variável em questão foi declarada como uma *string* ou não.
 * ```variavel``` -  é a variável que será verificada se foi declarada.
 
 ## Retorno
-Retorna um _boolean_, onde _true_ significa que variável já foi declarado e _false_ que não foi.
+Retorna um _boolean_, onde _true_ significa que variável já foi declarado é uma *string*
 
 ## Exemplo
 
