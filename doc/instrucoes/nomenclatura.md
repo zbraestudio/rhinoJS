@@ -4,10 +4,11 @@
 
 É ela:
 
-## Versão: A.B.C
+## Versão: A.B.C.D
 Sendo:
 
-* A - Versão Pública.
-* B - Versão com **melhorias** da última versão pública.
-* C - Versão com **correções** na última versão pública.
+* A - Número da versão geral (ou versão do *branch*).
+* B - Número do  *release*.
+* C - Número das **melhorias** desde o último *release*.
+* D - Número das **correções** desde o último *release*.
 
