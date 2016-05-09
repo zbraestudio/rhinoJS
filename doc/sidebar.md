@@ -3,7 +3,7 @@
 
 #### Funções
 - [Array.search](/funcoes/Array-search.md)
-- [Form.send](/funcoes/Form-senha.md)
+- [Form.send](/funcoes/Form-send.md)
 - [navigator.isMobile](/funcoes/navigator-isMobile.md)
 - [validate.isBoolean](/funcoes/validate-isBoolean.md)
 - [validate.isCNPJ](/funcoes/validate-isCNPJ.md)
@@ -16,7 +16,7 @@
 
 #### Propriedades
 
-- [Objeto ZBRA](/propriedades/zbra.js)
+- [Objeto ZBRA](/propriedades/object-zbra.js)
 
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
