@@ -1,8 +1,9 @@
 {
   "path": "/doc",
   "sidebar": "/sidebar.md",
-  "logo": "https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/logo.png",
-  "favicon" : "https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/faviicon.png",
+  "logo": "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/logo.png",
+  "css": "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/style.css",
+  "favicon" : "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/faviicon.png",
   "modules": [
     "external_link_blank"
   ]
