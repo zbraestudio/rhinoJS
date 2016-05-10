@@ -1,5 +1,5 @@
 var rhinoJS=new Object
-rhinoJS.version="1.0.0",rhinoJS.log=function(n){console.log("rhinoJS Framework Javascript - "+n)},rhinoJS.error=function(n){alert("rhinoJS Framework Javascript - "+n),rhinoJS.log("Parou!")},rhinoJS.checking=function(){return"undefined"==typeof jQuery?(rhinoJS.error("o jQuery não foi carregado e é necessário."),!1):!0},rhinoJS.init=function(){rhinoJS.log("Iniciando..."),rhinoJS.log("Fazendo verificação nas dependências de terceiros..."),rhinoJS.checking()&&rhinoJS.log("Terceiros verificados.")},rhinoJS.init(),Array.search=function(n,r){var i=!1
+rhinoJS.version="0.0.0.0",rhinoJS.log=function(n){console.log("rhinoJS Framework Javascript - "+n)},rhinoJS.error=function(n){alert("rhinoJS Framework Javascript - "+n),rhinoJS.log("Parou!")},rhinoJS.checking=function(){return"undefined"==typeof jQuery?(rhinoJS.error("o jQuery não foi carregado e é necessário."),!1):!0},rhinoJS.init=function(){rhinoJS.log("Iniciando..."),rhinoJS.log("Fazendo verificação nas dependências de terceiros..."),rhinoJS.checking()&&rhinoJS.log("Terceiros verificados.")},rhinoJS.init(),Array.search=function(n,r){var i=!1
 return n.forEach(function(n){n==r&&(i=!0)}),i}
 var Form=new Object
 Form.send=function(n,r,i,t){r="undefined"!=typeof r?r:new Array,i="undefined"!=typeof i?i:"POST",t="undefined"!=typeof t?t:"_self"
