@@ -1,11 +1,11 @@
 {
-  "name": "zbra.framework.javascript",
-  "homepage": "https://github.com/zbraestudio/zbra.framework.javascript",
+  "name": "rhinoJS",
+  "homepage": "https://github.com/zbraestudio/rhinoJS",
   "authors": [
-    "Tihh Gonçalves <tihh.gon@gmail.com>"
+    "Tihh Gonçalves <tiago@tiago.art.br>"
   ],
-  "description": "Framework de Javascript da Z.BRA Estúdio",
-  "main": "dist/zbra.min.js",
+  "description": "Framework de Javascript desenvolvido pela Z.BRA Estúdio e parceiros",
+  "main": "dist/rhinoJS.js",
   "keywords": [
     "framework",
     "javascript",
