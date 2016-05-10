@@ -1,3 +1,3 @@
 # Propriedades
 
-* zbra.```version``` - Retorna a versão do Z.BRA Framework Javascript.
+* rhinoJS.```version``` - Retorna a versão do Z.BRA Framework Javascript.
