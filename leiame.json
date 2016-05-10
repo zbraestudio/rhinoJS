@@ -1,9 +1,9 @@
 {
   "path": "/doc",
   "sidebar": "/sidebar.md",
-  "logo": "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/logo.png",
-  "css": "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/style.css",
-  "favicon" : "https://raw.githubusercontent.com/zbraestudio/rhinojs/master/doc/faviicon.png",
+  "logo": "https://cdn.rawgit.com/zbraestudio/rhinojs/master/doc/logo.png",
+  "css": "https://cdn.rawgit.com/zbraestudio/rhinojs/master/doc/style.css",
+  "favicon" : "https://cdn.rawgit.com/zbraestudio/rhinojs/master/doc/faviicon.png",
   "modules": [
     "external_link_blank"
   ]
