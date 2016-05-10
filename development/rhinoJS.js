@@ -1,5 +1,5 @@
 var rhinoJS = new Object();
-rhinoJS.version = "0.0.0.0";
+rhinoJS.version = "1.1.0.0";
 
 /**
  * Cria log no console
