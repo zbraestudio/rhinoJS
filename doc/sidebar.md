@@ -1,5 +1,6 @@
 #### Principal
  - [Home](/index.md)
+ - [Releases](/release.md)
 
 #### Funções
 - [Array.search](/funcoes/Array-search.md)
