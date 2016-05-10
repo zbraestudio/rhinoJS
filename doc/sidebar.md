@@ -16,7 +16,7 @@
 
 #### Propriedades
 
-- [Objeto ZBRA](/propriedades/zbra.md)
+- [Objeto rhinoJS](/propriedades/rhinoJS.md)
 
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
