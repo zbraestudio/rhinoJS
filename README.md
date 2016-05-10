@@ -1,6 +1,5 @@
-![Ministrar2](https://raw.githubusercontent.com/zbraestudio/zbra.framework.javascript/master/doc/logo.png)
+![Ministrar2](https://raw.githubusercontent.com/zbraestudio/rhinoJS/master/doc/logo.png)
 
-Bem vindo ao *helper* do desenvolvedor Z.BRA Framework Javascript.
-
+Bem vindo ao *helper* do desenvolvedor rhinoJS Framework Javascript
 #### Documentação
 A documentação desse projeto está toda especificada em: http://rhinojs.leiame.org.

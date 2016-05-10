@@ -24,7 +24,7 @@ validate.isset = function(variavel){
 validate.isCNPJ = function(cnpj) {
 
     //deixa somente números
-    cnpj = zbra.number.StringToNumbers(cnpj);
+    cnpj = String.stringToNumbers(cnpj);
 
     //Já elimina se for branco
     if(cnpj == '') return false;
@@ -88,7 +88,7 @@ validate.isCPF = function (cpf) {
     var resto;
 
     //deixa somente números
-    cpf = zbra.number.StringToNumbers(cpf);
+    cpf = String.stringToNumbers(cpf);
     
     //Verifica se veio zeo-zeo-zero..
     if (cpf == "00000000000") return false;

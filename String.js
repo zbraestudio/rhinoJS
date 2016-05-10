@@ -4,6 +4,6 @@
  * @returns string
  * @constructor
  */
-String.StringToNumbers = function(text){
+String.stringToNumbers = function(text){
     return text.replace(/[^\d]+/g,'');
 }
