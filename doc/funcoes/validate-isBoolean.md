@@ -12,8 +12,9 @@ Retorna um _boolean_, onde _true_ significa que variável já foi declarada e é
 
 ## Exemplo
 
-    if(validate.isBoolean(var1)){
-        alert('var1 é um boolean.');
+    var x = true;
+    if(validate.isBoolean(x)){
+        alert('x é um boolean.');
     } else {
-        alert('var1 não é um boolean.');
+        alert('x não é um boolean.');
     }
