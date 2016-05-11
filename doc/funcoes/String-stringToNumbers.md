@@ -12,9 +12,7 @@ Retorna somente os números da *string* enviada.
 
 ## Exemplo
 
-    $('#teste').click(function(){
+    var s = 'Meu pai está fazendo 50 anos.';
+    var r = String.stringToNumbers(s);
+    alert(r); //Irá retornar 50
 
-      var s = 'Meu pai está fazendo 50 anos.';
-      var r = String.stringToNumbers(s);
-      alert(r); //Irá retornar 50
-    });
