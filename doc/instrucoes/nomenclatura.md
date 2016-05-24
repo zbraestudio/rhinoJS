@@ -9,6 +9,6 @@ Sendo:
 
 * A - Número da versão geral (ou versão do **branch**).
 * B - Número do  **release**.
-* C - Número das **melhorias** desde o último *release*.
+* C - Número das **melhorias/novidades** desde o último *release*.
 * D - Número das **correções** desde o último *release*.
 
