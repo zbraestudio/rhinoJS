@@ -6,6 +6,7 @@
 #### Funções
 - [Array.search](/funcoes/Array-search.md)
 - [Form.send](/funcoes/Form-send.md)
+- [Image.preload](/funcoes/Image-preload.md)
 - [navigator.isMobile](/funcoes/navigator-isMobile.md)
 - [String.stringToNumbers](/funcoes/String-stringToNumbers.md)
 - [validate.isBoolean](/funcoes/validate-isBoolean.md)
