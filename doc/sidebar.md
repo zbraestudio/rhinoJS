@@ -3,6 +3,9 @@
  - [Releases](/releases.md)
  - [Testes](/testes.md)
 
+#### Eventos
+- [window.change](/eventos/window-change.md)
+
 #### Funções
 - [Array.search](/funcoes/Array-search.md)
 - [Form.send](/funcoes/Form-send.md)
@@ -17,6 +20,7 @@
 - [validate.isObject](/funcoes/validate-isObject.md)
 - [validate.isString](/funcoes/validate-isString.md)
 - [validate.isset](/funcoes/validate-isset.md)
+
 
 #### Propriedades
 
