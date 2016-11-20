@@ -1,11 +1,11 @@
 # Evento window.change
 
-Evento que È disparado quando o site terminad de carregar e quando a p·gina muda de tamanho (inclusive, quando o celular muda de orientaÁ„o).
+Evento que √© disparado quando o site terminad de carregar e quando a p√°gina muda de tamanho (inclusive, quando o celular muda de orienta√ß√£o).
 
     function window.change(fnc)
 
 ## Retorno
-N„o retorna nenhuma valor.
+N√£o retorna nenhuma valor.
 
 ## Exemplo
 
