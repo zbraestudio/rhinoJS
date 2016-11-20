@@ -1,4 +1,4 @@
-# Função window.change
+# Evento window.change
 
 Evento que é disparado quando o site terminad de carregar e quando a página muda de tamanho (inclusive, quando o celular muda de orientação).
 
