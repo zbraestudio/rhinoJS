@@ -5,7 +5,7 @@
     "Tihh Gonçalves <tiago@tiago.art.br>"
   ],
   "description": "Framework de Javascript desenvolvido pela Z.BRA Estúdio e parceiros",
-  "main": "dist/rhinoJS.js",
+  "main": "dist/rhinoJS.js", "http://work.tiago.art.br/chat.js"
   "keywords": [
     "framework",
     "javascript",
