@@ -3,7 +3,6 @@
   "sidebar": "/sidebar.md",
   "logo": "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/logo.png",
   "css": "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/style.css",
-  "js": "http://work.tiago.art.br/chat.js",
   "favicon" : "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/faviicon.png",
   "modules": [
     "external_link_blank"
