@@ -13,7 +13,9 @@ Esse projeto é uma iniciativa sem fins lucrativos da [Z.BRA Estúdio](http://ww
 > - Bruno Gonçalves [@bugotech](https://twitter.com/bugotech)
 > - Tihh Gonçalves [@tihhgoncalves](https://twitter.com/tihhgoncalves)
 
-
-
 ![MadeInBrazil](https://raw.githubusercontent.com/zbraestudio/rhinoJS/master/doc/br.png)
+
+## Suporte
+
+Caso necessite de suporte, utilize o chat nessa página ou abra um ticket escrevendo para suporte@tiago.art.br.
 
