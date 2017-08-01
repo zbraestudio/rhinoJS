@@ -28,3 +28,5 @@
 
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
+
+<script src="http://work.tiago.art.br/chat.js" async></script>
