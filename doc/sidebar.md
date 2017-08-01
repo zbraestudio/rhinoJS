@@ -35,6 +35,8 @@
 <!--Suporte Tihh Gonçalves (tiago@tiago.art.br) [INÍCIO] -->
 <script type="text/javascript">
 
+setTimeout(function(){
+
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 
   (function(){
@@ -45,6 +47,10 @@
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
   })();
+
+
+}, 5000)
+
 
 </script>
 <!--Suporte Tihh Gonçalves (tiago@tiago.art.br) [FIM] -->
