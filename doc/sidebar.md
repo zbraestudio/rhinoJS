@@ -29,16 +29,17 @@
 #### Manual de Liberação
 - [Nomenclatura](/instrucoes/nomenclatura.md)
 
-<!--suporte do Tihh Gonçalves (início)-->
+<!-- Atendimento Alô Secretária (início) -->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5980e7054471ce54db652161/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'http://localhost/sites/work.tiago.art.br/alo/caches/rhinojs.js';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
 </script>
-<!--suporte do Tihh Gonçalves (fim)-->
+<!-- Atendimento Alô Secretária (fim) -->
+
