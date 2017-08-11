@@ -12,6 +12,7 @@
 - [Image.preload](/funcoes/Image-preload.md)
 - [navigator.isMobile](/funcoes/navigator-isMobile.md)
 - [navigator.realLink](/funcoes/navigator-realLink.md)
+- [String.replaceAll](/funcoes/String-replaceAll.md)
 - [String.stringToNumbers](/funcoes/String-stringToNumbers.md)
 - [validate.isBoolean](/funcoes/validate-isBoolean.md)
 - [validate.isCNPJ](/funcoes/validate-isCNPJ.md)
