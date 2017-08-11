@@ -19,3 +19,5 @@ Retorna um _string_, com uma URL completa.
 
     alert(navigator.realLink(url, link));
     // retornará: http://www.tiago.art.br/casa/teste.html
+
+Veja uma [demonstração online](https://jsfiddle.net/73mdssnb/2/).
