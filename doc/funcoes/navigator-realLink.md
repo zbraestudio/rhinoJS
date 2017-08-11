@@ -6,8 +6,8 @@ Retorna a URL final de um link parcial.
     
     
 ## Parâmetros
-* ```url``` - A URL da página que contém o link. (Ex.: http://www.tiago.art.br/casa/quarto/cama/)
-* ```link``` - Valor do Link. (Ex.: ../../teste.html) 
+* ```url``` - _String com a URL da página que contém o link. (Ex.: http://www.tiago.art.br/casa/quarto/cama/)
+* ```link``` - _String com o valor do Link. (Ex.: ../../teste.html) 
 
 ## Retorno
 Retorna um _string_, com uma URL completa.
