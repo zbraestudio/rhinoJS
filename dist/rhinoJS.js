@@ -24,7 +24,7 @@ return protocolo+'://'+dominio+'/'+link_niveis.join('/');}
 if(link.substr(0,2)=='./'){link=link.substr(2);}
 return protocolo+'://'+dominio+'/'+url_niveis.join('/')+'/'+link;}
 String.stringToNumbers=function(text){return text.replace(/[^\d]+/g,'');}
-String.prototype.replaceAll=function(search,replace){return this.split(search).join(replace);};String.replaceAll=function(subject,search,replace){return subject.replaceAll(search,replace);}
+String.prototype.replaceAll=function(search,replace){return this.split(search).join(replace);};String.replaceAll=function(search,replace,subject){return subject.replaceAll(search,replace);}
 var validate=new Object();validate.isset=function(variavel){if((variavel===undefined)||(variavel===null))
 return false;else
 return true;}
