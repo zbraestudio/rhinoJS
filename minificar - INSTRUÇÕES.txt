@@ -1,0 +1,13 @@
+**************************
+Instruções de Tihh Gonçalves
+
+Para o minificar.bat funcionar, instale o minify no command do seu windows.
+
+Baixe aqui:
+https://dl.equinox.io/tdewolff/minify/stable
+
+Copie o arquivo minify.exe para dentro do C:/windows/system32
+
+Feito! :)
+
+Dúvidas, tiago@tiago.art.br
