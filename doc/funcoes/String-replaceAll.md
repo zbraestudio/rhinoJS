@@ -17,4 +17,14 @@ Retorna uma _string_ já com as substituições.
     var subject = 'Olá mundo cruel. Mas é cruel mesmo?';
     var r = String.replaceAll('cruel', 'bonito', subject);
     alert(r); //Irá retornar: 'Olá mundo bonito. Mas é bonito mesmo?'
+    
+## Propriedade de variável
+Outra maneira (e talvez mais prática) de você utilizar a função, é como uma propriedade de uma string, como no exemplo abaixo:
 
+    string string.replaceAll(search, replace)
+    
+### Exemplo
+
+    var subject = 'Olá mundo cruel. Mas é cruel mesmo?';
+    var r = subject.replaceAll('cruel', 'bonito');
+    alert(r); //Irá retornar: 'Olá mundo bonito. Mas é bonito mesmo?'
