@@ -3,7 +3,7 @@
 ### 1.3beta
 
     Novidades:
-      - Mudança no controle de versão ([entenda aqui](/instrucoes/nomenclatura.md)) 
+      - Mudança no controle de versão.
       - função navigator.realLink() que Retorna a URL final de um link parcial.
       - Nova função: String.replaceAll() que substitui parte de um texto quantas vezes forem possíveis.
 
