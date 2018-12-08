@@ -1,9 +1,9 @@
 {
   "path": "/doc",
   "sidebar": "/sidebar.md",
-  "logo": "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/logo.png",
-  "css": "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/style.css",
-  "favicon" : "https://cdn.rawgit.com/tihhgoncalves/rhinojs/master/doc/faviicon.png",
+  "logo": "https://cdn.jsdelivr.net/gh/tihhgoncalves/rhinojs/doc/logo.png",
+  "css": "https://cdn.jsdelivr.net/gh/tihhgoncalves/rhinojs/doc/style.css",
+  "favicon" : "https://cdn.jsdelivr.net/gh/tihhgoncalves/rhinojs/doc/faviicon.png",
   "modules": [
     "external_link_blank"
   ]
